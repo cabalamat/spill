@@ -1,0 +1,17 @@
+README for spill
+================
+
+Spill (Simple Python Implementation of Lisp) is a small lisp-like language.
+
+Its purpose is:
+
+1. to help me understand how Lisp works and how to implement it.
+
+2. to serve as example code for building ShowMe. Possibly the ShowMe code
+will be based on Spill.
+
+3. to serve as a testbed for implementing other language features, e.g.
+compiliation into Python, macros, etc.
+
+
+/end/
