@@ -1,0 +1,31 @@
+HISTORY for Spill
+=================
+
+12-Feb-2012: started README.
+Changed special forms: define->def, cond->if.
+
+Adding methods with varying numbers of arguments to Spill. Syntax is:
+
+   (def foo (fn (* args)
+      args))
+   (foo 1 2 3) => (1 2 3)
+
+13-Feb-2012: adding the ability to run code from a file:
+
+   $ spill somefile.l
+
+will run the Spill program <somefile.l>. The spill standard library,
+<libcore.l> is run first.
+
+15-Feb-2012; HISTORY file created. Indentation changed to 4 spaces.
+
+16-Feb-2012:
+Saved <spill-0.1>.
+Got tests working. Saved <spill-0.1.1>.
+Adding macros.
+
+17-Feb-2012: added eval function, e.g: (eval '(+ 2 5)) => 7
+Macros now working. Saved <spill-0.2>
+
+
+/end/
